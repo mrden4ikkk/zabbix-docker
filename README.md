@@ -27,4 +27,10 @@ sudo dpkg -i zabbix-release_7.0-1+ubuntu22.04_all.deb
 sudo apt update
 
 sudo apt install zabbix-agent2
-
+sudo nano /etc/zabbix/zabbix_agent2.conf
+**************
+Server=IP_СЕРВЕРА
+ServerActive=IP_СЕРВЕРА
+Hostname=linux-client
+*************
+sudo systemctl restart zabbix-agent

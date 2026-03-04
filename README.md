@@ -33,4 +33,4 @@ Server=IP_СЕРВЕРА
 ServerActive=IP_СЕРВЕРА
 Hostname=linux-client
 *************
-sudo systemctl restart zabbix-agent
+sudo systemctl restart zabbix-agent2

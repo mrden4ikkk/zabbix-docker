@@ -11,7 +11,7 @@ cd ~/zabbix-docker
 
 nano docker-compose.yml
 
-docker compose up -d
+docker-compose up -d
 
 docker ps
 

@@ -4,6 +4,8 @@ sudo apt install docker.io -y
 
 docker --version
 
+sudo apt install docker-compose -y
+
 docker compose version
 
 mkdir ~/zabbix-docker

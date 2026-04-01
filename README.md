@@ -13,9 +13,9 @@ cd ~/zabbix-docker
 
 nano docker-compose.yml
 
-docker-compose up -d
+sudo docker-compose up -d
 
-docker ps
+sudo docker ps
 
 http://IP_СЕРВЕРА:8080
 Login: Admin
